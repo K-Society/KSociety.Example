@@ -4,12 +4,21 @@
 
 An essential example on how to use [KSociety.Log.Serilog.Sinks.RabbitMq](https://github.com/K-Society/KSociety.Log/tree/master/Src/01/Sink/KSociety.Log.Serilog.Sinks.RabbitMq).
 
-
-
 ### KSociety.Example.Pre.Console.Log.SinksRabbitMq
 
+This project contains a console application that generates 5 log messages:
+```cs
+logger.LogTrace("Your {0} message: {1}", "Trace", result);
+logger.LogDebug("Your {0} message: {1}", "Debug", result);
+logger.LogInformation("Your {0} message: {1}", "Information", result);
+logger.LogWarning("Your {0} message: {1}", "Warning", result);
+logger.LogError("Your {0} message: {1}", "Error", result);
+```
 
-## Log on web application
+All messages pass through [RabbitMQ](https://www.rabbitmq.com/) to the [log server](https://github.com/K-Society/KSociety.Log), after which the log server retransmits them to the [log web application](https://github.com/K-Society/KSociety.Log).
+
+
+## Log result on web application
 
 ![Image of Log on web application](https://github.com/K-Society/KSociety.Example/blob/master/docs/KSociety.Example.Pre.Console.Log.SinksRabbitMq/LogWeb.jpg)
 
