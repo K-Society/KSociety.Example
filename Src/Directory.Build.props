@@ -19,7 +19,7 @@
     <Company>K-Society</Company>
     <Copyright>Copyright © K-Society and contributors 2022. All rights reserved.</Copyright>
 	<PackageLicenseExpression>MS-RL</PackageLicenseExpression>
-	<Description>K-Society Example is a full stack framework for .NET 6 and .NET 7 application https://github.com/K-Society/KSociety.Example</Description>
+	<Description>K-Society Example for .NET 6 and .NET 7 application https://github.com/K-Society/KSociety.Example</Description>
     <Product>K-Society Example</Product>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
