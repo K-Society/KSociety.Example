@@ -2,14 +2,16 @@
 
 # KSociety.Example.Pre.Console.Log.SinksRabbitMq
 
-The event bus RbbitMQ implementation.
+An essential example on how to use [KSociety.Log.Serilog.Sinks.RabbitMq](https://github.com/K-Society/KSociety.Log/tree/master/Src/01/Sink/KSociety.Log.Serilog.Sinks.RabbitMq).
 
-## Introduction
 
-The event bus RbbitMQ implementation.
 
 ### KSociety.Example.Pre.Console.Log.SinksRabbitMq
-The event bus RbbitMQ implementation.
+
+
+## Log on web application
+
+![Image of Log on web application](https://github.com/K-Society/KSociety.Example/blob/master/docs/KSociety.Example.Pre.Console.Log.SinksRabbitMq/LogWeb.jpg)
 
 
 ## License
