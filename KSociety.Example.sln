@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Infrastructure Sub Layer", "01. Infrastructure Sub Layer", "{DDEE1168-8085-41D0-BF33-CD3A15391C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation Layer", "01. Presentation Layer", "{36FD4F43-7A14-4DD8-90BE-8425D64FDC6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{5F23738D-3A26-47A6-BDB8-5A4B97CED284}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{026B5FC7-9464-4C11-942E-042C0CC09D80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Pre.Console.Log.SinksRabbitMq", "Src\01\01\Console\Log\KSociety.Example.Pre.Console.Log.SinksRabbitMq\KSociety.Example.Pre.Console.Log.SinksRabbitMq.csproj", "{3511A861-17E5-4D01-A84A-D867A0DCF380}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EDADCAB-231B-4931-981A-22F592A610A6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3511A861-17E5-4D01-A84A-D867A0DCF380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3511A861-17E5-4D01-A84A-D867A0DCF380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3511A861-17E5-4D01-A84A-D867A0DCF380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3511A861-17E5-4D01-A84A-D867A0DCF380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36FD4F43-7A14-4DD8-90BE-8425D64FDC6F} = {DDEE1168-8085-41D0-BF33-CD3A15391C87}
+		{5F23738D-3A26-47A6-BDB8-5A4B97CED284} = {36FD4F43-7A14-4DD8-90BE-8425D64FDC6F}
+		{026B5FC7-9464-4C11-942E-042C0CC09D80} = {5F23738D-3A26-47A6-BDB8-5A4B97CED284}
+		{3511A861-17E5-4D01-A84A-D867A0DCF380} = {026B5FC7-9464-4C11-942E-042C0CC09D80}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78D685EE-7786-4618-B38B-2C16915E108D}
+	EndGlobalSection
+EndGlobal

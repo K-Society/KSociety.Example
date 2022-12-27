@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright © K-Society and contributors. All rights reserved. Licensed under the K-Society License. See LICENSE.TXT file in the project root for full license information. -->
+
+<Project>
+  <PropertyGroup>
+	<TargetFrameworks>net6.0</TargetFrameworks>
+	
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <!--MSBuildErrorsAsMessages>NU1202</MSBuildErrorsAsMessages-->
+
+    <ProjectName Condition=" '$(ProjectName)' == '' ">$(MSBuildProjectName)</ProjectName>
+    <BaseOutputPath>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\build\$(ProjectName)\))</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(BaseOutputPath)obj\</BaseIntermediateOutputPath>
+    <OutputPath>$(BaseOutputPath)$(Configuration)\</OutputPath>
+	
+	<Title>$(AssemblyName)</Title>
+	
+    <Authors>K-Society</Authors>
+    <Company>K-Society</Company>
+    <Copyright>Copyright © K-Society and contributors 2022. All rights reserved.</Copyright>
+	<PackageLicenseExpression>MS-RL</PackageLicenseExpression>
+	<Description>K-Society Example is a full stack framework for .NET 6 and .NET 7 application https://github.com/K-Society/KSociety.Example</Description>
+    <Product>K-Society Example</Product>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageProjectUrl>https://github.com/K-Society/KSociety.Example</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/K-Society/KSociety.Example</RepositoryUrl>	
+	<PackageReleaseNotes>https:%2F%2Fk-society.github.io%2FKSociety.Example%2F$(ProjectName)%2Fchange-log</PackageReleaseNotes>
+	<RepositoryType>git</RepositoryType>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<PackageTags>ksociety;k-society;example</PackageTags>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(APPVEYOR)' == 'True'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true" />
+  </ItemGroup>
+  
+  <!--Target Name="PostBuild" BeforeTargets="PostBuildEvent">
+    <Exec Command="echo OutputPath: $(OutputPath)&#xD;&#xA;echo BaseIntermediateOutputPath: $(BaseIntermediateOutputPath)&#xD;&#xA;" />
+  </Target-->
+
+  <Import Project="Icon.Build.props" Condition=" '$(MSBuildProjectExtension)'=='.csproj' and Exists('Icon.Build.props') " />
+  <Import Project="CSharp.Build.props" Condition=" '$(MSBuildProjectExtension)'=='.csproj' and Exists('CSharp.Build.props') " />
+  <Import Project="Readme.Build.props" Condition=" '$(MSBuildProjectExtension)'=='.csproj' and Exists('Readme.Build.props') " />
+  <Import Project="Custom.Build.props" Condition=" Exists('Custom.Build.props') " />
+</Project>
