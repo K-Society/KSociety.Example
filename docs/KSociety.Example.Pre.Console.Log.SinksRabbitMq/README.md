@@ -4,6 +4,15 @@
 
 An essential example on how to use [KSociety.Log.Serilog.Sinks.RabbitMq](https://github.com/K-Society/KSociety.Log/tree/master/Src/01/Sink/KSociety.Log.Serilog.Sinks.RabbitMq).
 
+### How to use this example (for Windows)
+
+1. Install [RabbitMQ](https://github.com/K-Society/KSociety.RabbitMQ.Install/releases)
+2. Install [Log system](https://github.com/K-Society/KSociety.Log/releases)
+3. Ren KSociety.Log.Pre.Web.App.exe
+4. Open web browser to the following address: http://localhost:61000
+5. Run KSociety.Log.Srv.Host.exe
+6. Run KSociety.Example.Pre.Console.Log.SinksRabbitMq.exe
+
 ### KSociety.Example.Pre.Console.Log.SinksRabbitMq
 
 This project contains a console application that generates 5 log messages:
