@@ -7,6 +7,10 @@ A collection of sample projects on how to use the [KSociety.Base](https://github
 | Project | Readme |
 | ------------- | ------------- |
 | [KSociety.Example.Pre.Console.Log.SinksRabbitMq](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Console/Log/KSociety.Example.Pre.Console.Log.SinksRabbitMq) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Pre.Console.Log.SinksRabbitMq) |
+| [KSociety.Example.App.Dto](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Console/Log/KSociety.Example.Pre.Console.Log.SinksRabbitMq) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.Dto) |
+| [KSociety.Example.App.ReqHdlr](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Console/Log/KSociety.Example.Pre.Console.Log.SinksRabbitMq) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.ReqHdlr) |
+| [KSociety.Example.Domain.Entity](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Console/Log/KSociety.Example.Pre.Console.Log.SinksRabbitMq) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Entity) |
+| [KSociety.Example.Domain.Repository](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Console/Log/KSociety.Example.Pre.Console.Log.SinksRabbitMq) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Repository) |
 
 
 ## License
