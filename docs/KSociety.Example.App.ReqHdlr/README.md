@@ -2,7 +2,7 @@
 
 # KSociety.Example.App.ReqHdlr
 
-An essential example on how to use [KSociety.Log.Serilog.Sinks.RabbitMq](https://github.com/K-Society/KSociety.Log/tree/master/Src/01/Sink/KSociety.Log.Serilog.Sinks.RabbitMq).
+An essential example on how to use [KSociety.Example.App.ReqHdlr](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.ReqHdlr).
 
 ### How to use this example (for Windows)
 
@@ -25,11 +25,6 @@ logger.LogError("Your {0} message: {1}", "Error", result);
 ```
 
 All messages pass through [RabbitMQ](https://www.rabbitmq.com/) to the [log server](https://github.com/K-Society/KSociety.Log), after which the log server retransmits them to the [log web application](https://github.com/K-Society/KSociety.Log).
-
-
-## Log result on web application
-
-![Image of Log on web application](https://github.com/K-Society/KSociety.Example/blob/master/docs/KSociety.Example.Pre.Console.Log.SinksRabbitMq/LogWeb.jpg)
 
 
 ## License

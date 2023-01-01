@@ -1,8 +1,8 @@
 [KSociety.Example Home](https://github.com/K-Society/KSociety.Example)
 
-# KSociety.Example.Pre.Console.Log.SinksRabbitMq
+# KSociety.Example.Domain.Entity
 
-An essential example on how to use [KSociety.Log.Serilog.Sinks.RabbitMq](https://github.com/K-Society/KSociety.Log/tree/master/Src/01/Sink/KSociety.Log.Serilog.Sinks.RabbitMq).
+An essential example on how to use [KSociety.Example.Domain.Entity](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Entity).
 
 ### How to use this example (for Windows)
 
@@ -13,7 +13,7 @@ An essential example on how to use [KSociety.Log.Serilog.Sinks.RabbitMq](https:/
 5. Run KSociety.Log.Srv.Host.exe
 6. Run KSociety.Example.Pre.Console.Log.SinksRabbitMq.exe
 
-### KSociety.Example.Pre.Console.Log.SinksRabbitMq
+### KSociety.Example.Domain.Entity
 
 This project contains a console application that generates 5 log messages:
 ```cs
@@ -25,11 +25,6 @@ logger.LogError("Your {0} message: {1}", "Error", result);
 ```
 
 All messages pass through [RabbitMQ](https://www.rabbitmq.com/) to the [log server](https://github.com/K-Society/KSociety.Log), after which the log server retransmits them to the [log web application](https://github.com/K-Society/KSociety.Log).
-
-
-## Log result on web application
-
-![Image of Log on web application](https://github.com/K-Society/KSociety.Example/blob/master/docs/KSociety.Example.Pre.Console.Log.SinksRabbitMq/LogWeb.jpg)
 
 
 ## License
