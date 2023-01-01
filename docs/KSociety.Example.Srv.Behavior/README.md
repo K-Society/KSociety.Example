@@ -1,8 +1,8 @@
 [KSociety.Example Home](https://github.com/K-Society/KSociety.Example)
 
-# KSociety.Example.Infra.DataAccess
+# KSociety.Example.Srv.Behavior
 
-An essential example on how to use [KSociety.Example.Infra.DataAccess](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/06/KSociety.Example.Infra.DataAccess).
+An essential example on how to use [KSociety.Example.Srv.Behavior](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/02/KSociety.Example.Srv.Behavior).
 
 ### How to use this example (for Windows)
 
@@ -13,7 +13,7 @@ An essential example on how to use [KSociety.Example.Infra.DataAccess](https://g
 5. Run KSociety.Log.Srv.Host.exe
 6. Run KSociety.Example.Pre.Console.Log.SinksRabbitMq.exe
 
-### KSociety.Example.Infra.DataAccess
+### KSociety.Example.Srv.Behavior
 
 This project contains a console application that generates 5 log messages:
 ```cs
@@ -25,11 +25,6 @@ logger.LogError("Your {0} message: {1}", "Error", result);
 ```
 
 All messages pass through [RabbitMQ](https://www.rabbitmq.com/) to the [log server](https://github.com/K-Society/KSociety.Log), after which the log server retransmits them to the [log web application](https://github.com/K-Society/KSociety.Log).
-
-## Migration
-
-add-migration ExampleDb -Args "Sqlite ExampleDb KSociety.Example.Infra.Transfer.Sqlite" -Project KSociety.Example.Infra.Transfer.Sqlite -StartupProject KSociety.Example.Srv.Host -Verbose
-Update-Database -Args "Sqlite ExampleDb KSociety.Example.Infra.Transfer.Sqlite" -Project KSociety.Example.Infra.Transfer.Sqlite -StartupProject KSociety.Example.Srv.Host -Verbose
 
 ## License
 The project is under Microsoft Reciprocal License [(MS-RL)](http://www.opensource.org/licenses/MS-RL)

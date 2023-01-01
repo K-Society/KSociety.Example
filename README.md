@@ -6,11 +6,15 @@ A collection of sample projects on how to use the [KSociety.Base](https://github
 
 ### KSociety.Log Sinks 
 
+An essential example on how to use KSociety.Log.Serilog.Sinks.RabbitMq.
+
 | Project | Readme |
 | ------------- | ------------- |
 | [KSociety.Example.Pre.Console.Log.SinksRabbitMq](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Console/Log/KSociety.Example.Pre.Console.Log.SinksRabbitMq) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Pre.Console.Log.SinksRabbitMq) |
 
-### KSociety.Base
+### KSociety.Base skeleton
+
+An essential example on how to use KSociety.Base stack.
 
 | Project | Readme |
 | ------------- | ------------- |
