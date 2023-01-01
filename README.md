@@ -14,17 +14,18 @@ A collection of sample projects on how to use the [KSociety.Base](https://github
 
 | Project | Readme |
 | ------------- | ------------- |
-
-| [KSociety.Example.Pre.Web.App](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.Dto) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Pre.Web.App) |
-| [KSociety.Example.App.ReqHdlr](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.ReqHdlr) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.ReqHdlr) |
-| [KSociety.Example.Domain.Entity](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Entity) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Entity) |
-| [KSociety.Example.Domain.Repository](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Repository) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Repository) |
-
-
+| [KSociety.Example.Pre.Web.App](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Web/KSociety.Example.Pre.Web.App) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Pre.Web.App) |
+| [KSociety.Example.Srv.Host](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/02/Host/KSociety.Example.Srv.Host) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Srv.Host) |
+| [KSociety.Example.Srv.Agent](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/02/KSociety.Example.Srv.Agent) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Srv.Agent) |
+| [KSociety.Example.Srv.Behavior](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/02/KSociety.Example.Srv.Behavior) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Srv.Behavior) |
+| [KSociety.Example.Srv.Contract](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/02/KSociety.Example.Srv.Contract) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Srv.Contract) |
+| [KSociety.Example.Srv.Dto](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/02/KSociety.Example.Srv.Dto) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Srv.Dto) |
 | [KSociety.Example.App.Dto](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.Dto) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.Dto) |
 | [KSociety.Example.App.ReqHdlr](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.ReqHdlr) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.ReqHdlr) |
 | [KSociety.Example.Domain.Entity](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Entity) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Entity) |
 | [KSociety.Example.Domain.Repository](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Repository) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Repository) |
+| [KSociety.Example.Infra.DataAccess](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/06/KSociety.Example.Infra.DataAccess) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Infra.DataAccess) |
+| [KSociety.Example.Infra.Transfer.Sqlite](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/06/KSociety.Example.Infra.Transfer.Sqlite) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Infra.Transfer.Sqlite) |
 
 
 ## License
