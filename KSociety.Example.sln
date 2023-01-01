@@ -16,20 +16,45 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EDADCAB-231B-4931-981A-22F592A610A6}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		NuGet.config = NuGet.config
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Application Layer", "03. Application Layer", "{EF0851F9-15CA-40C2-9811-63A71BF6B01C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSociety.Example.App.Dto", "Src\01\03\KSociety.Example.App.Dto\KSociety.Example.App.Dto.csproj", "{98D184E2-935B-48DE-A87F-B7F7DF0C5473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.Dto", "Src\01\03\KSociety.Example.App.Dto\KSociety.Example.App.Dto.csproj", "{98D184E2-935B-48DE-A87F-B7F7DF0C5473}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSociety.Example.App.ReqHdlr", "Src\01\03\KSociety.Example.App.ReqHdlr\KSociety.Example.App.ReqHdlr.csproj", "{428511B1-5F3B-493C-B1AF-83F9B37E4508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.ReqHdlr", "Src\01\03\KSociety.Example.App.ReqHdlr\KSociety.Example.App.ReqHdlr.csproj", "{428511B1-5F3B-493C-B1AF-83F9B37E4508}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Domain Layer", "05. Domain Layer", "{12CBBC81-EA0B-42F0-BB41-C8937B32F65F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSociety.Example.Domain.Entity", "Src\01\05\KSociety.Example.Domain.Entity\KSociety.Example.Domain.Entity.csproj", "{2D9B3BF9-200B-48F7-9CE7-A3139F2CB815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Domain.Entity", "Src\01\05\KSociety.Example.Domain.Entity\KSociety.Example.Domain.Entity.csproj", "{2D9B3BF9-200B-48F7-9CE7-A3139F2CB815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSociety.Example.Domain.Repository", "Src\01\05\KSociety.Example.Domain.Repository\KSociety.Example.Domain.Repository.csproj", "{B581607C-9D02-411A-AB3C-84865E0D02E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Domain.Repository", "Src\01\05\KSociety.Example.Domain.Repository\KSociety.Example.Domain.Repository.csproj", "{B581607C-9D02-411A-AB3C-84865E0D02E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Infrastructure Layer", "06. Infrastructure Layer", "{D7D344EE-9DC5-4173-BE02-B867A26B679E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Infra.DataAccess", "Src\01\06\KSociety.Example.Infra.DataAccess\KSociety.Example.Infra.DataAccess.csproj", "{203733CA-D413-4797-BCC9-747B8A8ED9C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Infra.Transfer.Sqlite", "Src\01\06\KSociety.Example.Infra.Transfer.Sqlite\KSociety.Example.Infra.Transfer.Sqlite.csproj", "{C56786B8-6D4B-4A9E-B0F5-7D872112D389}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Service Layer", "02. Service Layer", "{ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{76BAC69A-012C-4EAF-9D9B-824E04A69926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Host", "Src\01\02\Host\KSociety.Example.Srv.Host\KSociety.Example.Srv.Host.csproj", "{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Dto", "Src\01\02\KSociety.Example.Srv.Dto\KSociety.Example.Srv.Dto.csproj", "{E395C5C4-4903-4BE4-B677-DCE3FACF3684}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Contract", "Src\01\02\KSociety.Example.Srv.Contract\KSociety.Example.Srv.Contract.csproj", "{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Behavior", "Src\01\02\KSociety.Example.Srv.Behavior\KSociety.Example.Srv.Behavior.csproj", "{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Agent", "Src\01\02\KSociety.Example.Srv.Agent\KSociety.Example.Srv.Agent.csproj", "{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{770132E0-5141-4991-A4F0-81D930BFE869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSociety.Example.Pre.Web.App", "Src\01\01\Web\KSociety.Example.Pre.Web.App\KSociety.Example.Pre.Web.App.csproj", "{045CF724-6A56-4067-98AD-B61C68772F2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +82,38 @@ Global
 		{B581607C-9D02-411A-AB3C-84865E0D02E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B581607C-9D02-411A-AB3C-84865E0D02E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B581607C-9D02-411A-AB3C-84865E0D02E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203733CA-D413-4797-BCC9-747B8A8ED9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203733CA-D413-4797-BCC9-747B8A8ED9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203733CA-D413-4797-BCC9-747B8A8ED9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203733CA-D413-4797-BCC9-747B8A8ED9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56786B8-6D4B-4A9E-B0F5-7D872112D389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56786B8-6D4B-4A9E-B0F5-7D872112D389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56786B8-6D4B-4A9E-B0F5-7D872112D389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56786B8-6D4B-4A9E-B0F5-7D872112D389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E395C5C4-4903-4BE4-B677-DCE3FACF3684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E395C5C4-4903-4BE4-B677-DCE3FACF3684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E395C5C4-4903-4BE4-B677-DCE3FACF3684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E395C5C4-4903-4BE4-B677-DCE3FACF3684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045CF724-6A56-4067-98AD-B61C68772F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045CF724-6A56-4067-98AD-B61C68772F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045CF724-6A56-4067-98AD-B61C68772F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045CF724-6A56-4067-98AD-B61C68772F2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +129,18 @@ Global
 		{12CBBC81-EA0B-42F0-BB41-C8937B32F65F} = {DDEE1168-8085-41D0-BF33-CD3A15391C87}
 		{2D9B3BF9-200B-48F7-9CE7-A3139F2CB815} = {12CBBC81-EA0B-42F0-BB41-C8937B32F65F}
 		{B581607C-9D02-411A-AB3C-84865E0D02E7} = {12CBBC81-EA0B-42F0-BB41-C8937B32F65F}
+		{D7D344EE-9DC5-4173-BE02-B867A26B679E} = {DDEE1168-8085-41D0-BF33-CD3A15391C87}
+		{203733CA-D413-4797-BCC9-747B8A8ED9C5} = {D7D344EE-9DC5-4173-BE02-B867A26B679E}
+		{C56786B8-6D4B-4A9E-B0F5-7D872112D389} = {D7D344EE-9DC5-4173-BE02-B867A26B679E}
+		{ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D} = {DDEE1168-8085-41D0-BF33-CD3A15391C87}
+		{76BAC69A-012C-4EAF-9D9B-824E04A69926} = {ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D}
+		{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92} = {76BAC69A-012C-4EAF-9D9B-824E04A69926}
+		{E395C5C4-4903-4BE4-B677-DCE3FACF3684} = {ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D}
+		{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4} = {ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D}
+		{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10} = {ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D}
+		{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5} = {ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D}
+		{770132E0-5141-4991-A4F0-81D930BFE869} = {36FD4F43-7A14-4DD8-90BE-8425D64FDC6F}
+		{045CF724-6A56-4067-98AD-B61C68772F2F} = {770132E0-5141-4991-A4F0-81D930BFE869}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78D685EE-7786-4618-B38B-2C16915E108D}

@@ -2,7 +2,7 @@
 {
     public class Book : Base.Domain.Shared.Class.Entity
     {
-        public int Id { get; private set; }
+        public Guid Id { get; private set; }
         public string Title { get; private set; }
         public string AuthorName { get; private set; }
 
@@ -11,7 +11,7 @@
 
         }
 
-        public Book(int id, string title, string authorName)
+        public Book(Guid id, string title, string authorName)
         {
             Id = id;
             Title = title;
