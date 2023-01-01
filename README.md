@@ -4,13 +4,27 @@ A collection of sample projects on how to use the [KSociety.Base](https://github
 
 ## Content
 
+### KSociety.Log Sinks 
+
 | Project | Readme |
 | ------------- | ------------- |
 | [KSociety.Example.Pre.Console.Log.SinksRabbitMq](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/01/Console/Log/KSociety.Example.Pre.Console.Log.SinksRabbitMq) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Pre.Console.Log.SinksRabbitMq) |
+
+### KSociety.Base
+
+| Project | Readme |
+| ------------- | ------------- |
+
+| [KSociety.Example.Pre.Web.App](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.Dto) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Pre.Web.App) |
+| [KSociety.Example.App.ReqHdlr](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.ReqHdlr) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.ReqHdlr) |
+| [KSociety.Example.Domain.Entity](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Entity) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Entity) |
+| [KSociety.Example.Domain.Repository](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Repository) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Repository) |
+
+
 | [KSociety.Example.App.Dto](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.Dto) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.Dto) |
 | [KSociety.Example.App.ReqHdlr](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/03/KSociety.Example.App.ReqHdlr) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.App.ReqHdlr) |
 | [KSociety.Example.Domain.Entity](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Entity) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Entity) |
-| [KSociety.Example.Domain.Repository]https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Repository) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Repository) |
+| [KSociety.Example.Domain.Repository](https://github.com/K-Society/KSociety.Example/tree/master/Src/01/05/KSociety.Example.Domain.Repository) | [README.md](https://github.com/K-Society/KSociety.Example/tree/master/docs/KSociety.Example.Domain.Repository) |
 
 
 ## License

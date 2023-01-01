@@ -3,7 +3,7 @@ using KSociety.Example.Domain.Entity;
 
 namespace KSociety.Example.Domain.Repository
 {
-    public interface IBook : IRepository<Book>
+    public interface IBook : IRepositoryBase<Book>
     {
         IEnumerable<Book> GetAllBook();
 
