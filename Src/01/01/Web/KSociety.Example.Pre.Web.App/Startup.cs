@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using KSociety.Example.Pre.Web.App.Bindings.Book;
 
 namespace KSociety.Example.Pre.Web.App
 {
@@ -26,23 +27,14 @@ namespace KSociety.Example.Pre.Web.App
         {
             try
             {
-                //Log.
-                //builder.RegisterModule(new Log());
-
                 builder.RegisterModule(new KSociety.Example.Pre.Web.App.Bindings.Control.DatabaseControl());
 
-                //builder.RegisterModule(new Bindings.Biz.Biz());
+                builder.RegisterModule(new Query());
 
-                //builder.RegisterModule(new Query());
-                //builder.RegisterModule(new QueryListKeyValue());
-                //builder.RegisterModule(new QueryListGridView());
-                //builder.RegisterModule(new QueryModel());
-                //builder.RegisterModule(new Command());
+                builder.RegisterModule(new QueryListGridView());
+                builder.RegisterModule(new QueryModel());
+                builder.RegisterModule(new Command());
 
-                //builder.RegisterModule(new Bindings.S7.Query());
-                //builder.RegisterModule(new Bindings.S7.QueryListGridView());
-                //builder.RegisterModule(new Bindings.S7.QueryModel());
-                //builder.RegisterModule(new Bindings.S7.Command());
             }
             catch (Exception ex)
             {
@@ -74,15 +66,7 @@ namespace KSociety.Example.Pre.Web.App
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "Common",
-                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-
-                endpoints.MapControllerRoute(
-                    name: "S7",
-                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-
-                endpoints.MapControllerRoute(
-                    name: "Logix",
+                    name: "Book",
                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute(
