@@ -134,7 +134,7 @@ namespace KSociety.Example.Srv.Host
 
                 endpoints.MapGrpcService<Srv.Behavior.Query.QueryAsync>();
 
-                //endpoints.MapGrpcService<Srv.Behavior.Query.Model.QueryAsync>();
+                endpoints.MapGrpcService<Srv.Behavior.Query.Model.QueryAsync>();
 
                 //endpoints.MapGrpcService<Srv.Behavior.Query.ListKeyValue.QueryAsync>();
 
