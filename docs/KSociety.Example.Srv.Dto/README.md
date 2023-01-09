@@ -1,3 +1,5 @@
+![Logo](https://github.com/K-Society/KSociety.Example/blob/master/docs/K-Society__Logo_vs-negative.png)
+
 [KSociety.Example Home](https://github.com/K-Society/KSociety.Example)
 
 # KSociety.Example.Srv.Dto
