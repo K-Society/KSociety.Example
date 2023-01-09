@@ -1,3 +1,5 @@
+![Logo](https://github.com/K-Society/KSociety.Example/blob/master/docs/K-Society__Logo_vs-negative.png)
+
 # KSociety.Example
 
 A collection of sample projects on how to use the [KSociety.Base](https://github.com/K-Society/KSociety.Base) stack.
