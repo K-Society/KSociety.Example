@@ -10,7 +10,7 @@ An essential example on how to use [KSociety.Example.Pre.Web.App](https://github
 
 1. Install [RabbitMQ](https://github.com/K-Society/KSociety.RabbitMQ.Install/releases)
 2. Install [Log system](https://github.com/K-Society/KSociety.Log/releases)
-3. Ren KSociety.Log.Pre.Web.App.exe
+3. Run KSociety.Log.Pre.Web.App.exe
 4. Open web browser to the following address: http://localhost:61000
 5. Run KSociety.Log.Srv.Host.exe
 6. Run KSociety.Example.Pre.Console.Log.SinksRabbitMq.exe
