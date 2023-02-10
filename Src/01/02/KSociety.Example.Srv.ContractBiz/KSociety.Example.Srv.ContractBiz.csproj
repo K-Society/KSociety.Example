@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KSociety.Base.Srv.Contract" Version="1.1.59" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\03\KSociety.Example.App.DtoBiz\KSociety.Example.App.DtoBiz.csproj" />
+    <ProjectReference Include="..\..\04\KSociety.Example.Biz.Event\KSociety.Example.Biz.Event.csproj" />
+  </ItemGroup>
+
+</Project>

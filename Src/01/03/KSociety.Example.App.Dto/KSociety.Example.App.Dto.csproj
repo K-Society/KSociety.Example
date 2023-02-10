@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="KSociety.Base.App.Utility" Version="1.1.58" />
+    <PackageReference Include="KSociety.Base.App.Utility" Version="1.1.59" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\04\KSociety.Example.Biz\KSociety.Example.Biz.csproj" />
+    <ProjectReference Include="..\KSociety.Example.App.DtoBiz\KSociety.Example.App.DtoBiz.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KSociety.Base.EventBusRabbitMQ" Version="1.1.59" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KSociety.Example.Biz.Event\KSociety.Example.Biz.Event.csproj" />
+  </ItemGroup>
+
+</Project>

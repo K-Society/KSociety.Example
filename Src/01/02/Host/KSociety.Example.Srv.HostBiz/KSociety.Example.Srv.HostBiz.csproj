@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright © K-Society and contributors. All rights reserved. Licensed under the K-Society License. See LICENSE.TXT file in the project root for full license information. -->
-
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-KSociety.Example.Srv.Host-b7bdca0a-716b-484e-bbd4-d27c776687f0</UserSecretsId>
+    <UserSecretsId>dotnet-KSociety.Example.Srv.HostBiz-d55ac0d6-3a06-4963-8a8a-070ef066e164</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,8 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\03\KSociety.Example.App.ReqHdlr\KSociety.Example.App.ReqHdlr.csproj" />
     <ProjectReference Include="..\..\..\06\KSociety.Example.Infra.Transfer.Sqlite\KSociety.Example.Infra.Transfer.Sqlite.csproj" />
-    <ProjectReference Include="..\..\KSociety.Example.Srv.Behavior\KSociety.Example.Srv.Behavior.csproj" />
+    <ProjectReference Include="..\..\KSociety.Example.Srv.ContractBiz\KSociety.Example.Srv.ContractBiz.csproj" />
   </ItemGroup>
 </Project>
