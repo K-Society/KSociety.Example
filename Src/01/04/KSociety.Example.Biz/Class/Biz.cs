@@ -45,12 +45,23 @@ namespace KSociety.Example.Biz.Class
                 TestExampleRpcClientHandler, TestExampleRpcServerHandler,
                 TestExampleEvent, TestExampleEventReply>(
                 EventBusName,
-                "BusinessQueueConnection_" + tagGroupReady.Name,
-                tagGroupReady.Name + ".automation.connection.server",
-                tagGroupReady.Name + ".automation.connection.client.com",
+                "BusinessQueueConnection_Example",
+                "example.server",
+                "example.client.com",
                 new TestExampleRpcClientHandler(_loggerFactory, _componentContext),
                 new TestExampleRpcServerHandler(_loggerFactory, _componentContext));
         }
+
+        #region [Get Set to Plc]
+
+        public bool GetTestExampleAsync(string groupName, string connectionName)
+        {
+            return true;
+        }
+
+        #endregion
+
+        #region [Handler]
 
         public async ValueTask<TestExampleEventReply> GetTestExampleAsync(TestExampleEvent testExampleEvent, CancellationToken cancellationToken = default)
         {
@@ -65,5 +76,7 @@ namespace KSociety.Example.Biz.Class
 
             return new TestExampleEventReply();
         }
+
+        #endregion
     }
 }

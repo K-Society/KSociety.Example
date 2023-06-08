@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="KSociety.Base.Srv.Dto" Version="1.1.59" />
+    <PackageReference Include="KSociety.Base.Srv.Dto" Version="1.2.6" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,8 @@ namespace KSociety.Example.Biz.Interface
     {
         void LoadEventBus();
 
+        bool GetTestExampleAsync(string groupName, string connectionName);
+
         ValueTask<TestExampleEventReply> GetTestExampleAsync(TestExampleEvent testExampleEvent,
             CancellationToken cancellationToken = default);
     }

@@ -11,68 +11,67 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{5F23
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{026B5FC7-9464-4C11-942E-042C0CC09D80}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Pre.Console.Log.SinksRabbitMq", "Src\01\01\Console\Log\KSociety.Example.Pre.Console.Log.SinksRabbitMq\KSociety.Example.Pre.Console.Log.SinksRabbitMq.csproj", "{3511A861-17E5-4D01-A84A-D867A0DCF380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Pre.Console.Log.SinksRabbitMq", "src\01\01\Console\Log\KSociety.Example.Pre.Console.Log.SinksRabbitMq\KSociety.Example.Pre.Console.Log.SinksRabbitMq.csproj", "{3511A861-17E5-4D01-A84A-D867A0DCF380}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EDADCAB-231B-4931-981A-22F592A610A6}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
-		NuGet.config = NuGet.config
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Application Layer", "03. Application Layer", "{EF0851F9-15CA-40C2-9811-63A71BF6B01C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.Dto", "Src\01\03\KSociety.Example.App.Dto\KSociety.Example.App.Dto.csproj", "{98D184E2-935B-48DE-A87F-B7F7DF0C5473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.Dto", "src\01\03\KSociety.Example.App.Dto\KSociety.Example.App.Dto.csproj", "{98D184E2-935B-48DE-A87F-B7F7DF0C5473}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.ReqHdlr", "Src\01\03\KSociety.Example.App.ReqHdlr\KSociety.Example.App.ReqHdlr.csproj", "{428511B1-5F3B-493C-B1AF-83F9B37E4508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.ReqHdlr", "src\01\03\KSociety.Example.App.ReqHdlr\KSociety.Example.App.ReqHdlr.csproj", "{428511B1-5F3B-493C-B1AF-83F9B37E4508}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Domain Layer", "05. Domain Layer", "{12CBBC81-EA0B-42F0-BB41-C8937B32F65F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Domain.Entity", "Src\01\05\KSociety.Example.Domain.Entity\KSociety.Example.Domain.Entity.csproj", "{2D9B3BF9-200B-48F7-9CE7-A3139F2CB815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Domain.Entity", "src\01\05\KSociety.Example.Domain.Entity\KSociety.Example.Domain.Entity.csproj", "{2D9B3BF9-200B-48F7-9CE7-A3139F2CB815}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Domain.Repository", "Src\01\05\KSociety.Example.Domain.Repository\KSociety.Example.Domain.Repository.csproj", "{B581607C-9D02-411A-AB3C-84865E0D02E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Domain.Repository", "src\01\05\KSociety.Example.Domain.Repository\KSociety.Example.Domain.Repository.csproj", "{B581607C-9D02-411A-AB3C-84865E0D02E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Infrastructure Layer", "06. Infrastructure Layer", "{D7D344EE-9DC5-4173-BE02-B867A26B679E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Infra.DataAccess", "Src\01\06\KSociety.Example.Infra.DataAccess\KSociety.Example.Infra.DataAccess.csproj", "{203733CA-D413-4797-BCC9-747B8A8ED9C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Infra.DataAccess", "src\01\06\KSociety.Example.Infra.DataAccess\KSociety.Example.Infra.DataAccess.csproj", "{203733CA-D413-4797-BCC9-747B8A8ED9C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Infra.Transfer.Sqlite", "Src\01\06\KSociety.Example.Infra.Transfer.Sqlite\KSociety.Example.Infra.Transfer.Sqlite.csproj", "{C56786B8-6D4B-4A9E-B0F5-7D872112D389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Infra.Transfer.Sqlite", "src\01\06\KSociety.Example.Infra.Transfer.Sqlite\KSociety.Example.Infra.Transfer.Sqlite.csproj", "{C56786B8-6D4B-4A9E-B0F5-7D872112D389}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Service Layer", "02. Service Layer", "{ABEE3B3B-0F1C-40F9-90DF-219CCAFA9C0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{76BAC69A-012C-4EAF-9D9B-824E04A69926}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Host", "Src\01\02\Host\KSociety.Example.Srv.Host\KSociety.Example.Srv.Host.csproj", "{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Host", "src\01\02\Host\KSociety.Example.Srv.Host\KSociety.Example.Srv.Host.csproj", "{A75601FC-B205-44DA-AAE6-BF7F0AC7CF92}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Dto", "Src\01\02\KSociety.Example.Srv.Dto\KSociety.Example.Srv.Dto.csproj", "{E395C5C4-4903-4BE4-B677-DCE3FACF3684}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Dto", "src\01\02\KSociety.Example.Srv.Dto\KSociety.Example.Srv.Dto.csproj", "{E395C5C4-4903-4BE4-B677-DCE3FACF3684}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Contract", "Src\01\02\KSociety.Example.Srv.Contract\KSociety.Example.Srv.Contract.csproj", "{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Contract", "src\01\02\KSociety.Example.Srv.Contract\KSociety.Example.Srv.Contract.csproj", "{8B6F40D9-9F56-41C2-BEAC-145E61D4BFC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Behavior", "Src\01\02\KSociety.Example.Srv.Behavior\KSociety.Example.Srv.Behavior.csproj", "{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Behavior", "src\01\02\KSociety.Example.Srv.Behavior\KSociety.Example.Srv.Behavior.csproj", "{5DA7EE4B-76F7-423B-BB4A-A4F5EDD65B10}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Agent", "Src\01\02\KSociety.Example.Srv.Agent\KSociety.Example.Srv.Agent.csproj", "{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.Agent", "src\01\02\KSociety.Example.Srv.Agent\KSociety.Example.Srv.Agent.csproj", "{E8EE23E6-0A7F-4777-BEF4-525BB5FED5B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{770132E0-5141-4991-A4F0-81D930BFE869}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Pre.Web.App", "Src\01\01\Web\KSociety.Example.Pre.Web.App\KSociety.Example.Pre.Web.App.csproj", "{045CF724-6A56-4067-98AD-B61C68772F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Pre.Web.App", "src\01\01\Web\KSociety.Example.Pre.Web.App\KSociety.Example.Pre.Web.App.csproj", "{045CF724-6A56-4067-98AD-B61C68772F2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Business Layer", "04. Business Layer", "{7BEBDC7D-A53B-43BB-AB42-DEC546423581}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Biz", "Src\01\04\KSociety.Example.Biz\KSociety.Example.Biz.csproj", "{7E65853D-1889-4430-A89C-8A4A4263137E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Biz", "src\01\04\KSociety.Example.Biz\KSociety.Example.Biz.csproj", "{7E65853D-1889-4430-A89C-8A4A4263137E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Biz.Event", "Src\01\04\KSociety.Example.Biz.Event\KSociety.Example.Biz.Event.csproj", "{C2A79E43-C8B0-4F94-A4C6-A4402A746D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Biz.Event", "src\01\04\KSociety.Example.Biz.Event\KSociety.Example.Biz.Event.csproj", "{C2A79E43-C8B0-4F94-A4C6-A4402A746D84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.HostBiz", "Src\01\02\Host\KSociety.Example.Srv.HostBiz\KSociety.Example.Srv.HostBiz.csproj", "{C9C7960D-DE29-423F-9321-54180C1D69C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.HostBiz", "src\01\02\Host\KSociety.Example.Srv.HostBiz\KSociety.Example.Srv.HostBiz.csproj", "{C9C7960D-DE29-423F-9321-54180C1D69C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.ContractBiz", "Src\01\02\KSociety.Example.Srv.ContractBiz\KSociety.Example.Srv.ContractBiz.csproj", "{DAF8142C-E1A4-42D2-8CF9-4EAE5076828D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.ContractBiz", "src\01\02\KSociety.Example.Srv.ContractBiz\KSociety.Example.Srv.ContractBiz.csproj", "{DAF8142C-E1A4-42D2-8CF9-4EAE5076828D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.DtoBiz", "Src\01\03\KSociety.Example.App.DtoBiz\KSociety.Example.App.DtoBiz.csproj", "{58DEE107-19BE-4B60-BAE2-992290338675}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.DtoBiz", "src\01\03\KSociety.Example.App.DtoBiz\KSociety.Example.App.DtoBiz.csproj", "{58DEE107-19BE-4B60-BAE2-992290338675}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.BizReqHdlr", "Src\01\03\KSociety.Example.App.BizReqHdlr\KSociety.Example.App.BizReqHdlr.csproj", "{7F5E3095-8704-430F-8D79-6E0D5EC11E4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.App.BizReqHdlr", "src\01\03\KSociety.Example.App.BizReqHdlr\KSociety.Example.App.BizReqHdlr.csproj", "{7F5E3095-8704-430F-8D79-6E0D5EC11E4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSociety.Example.Srv.BehaviorBiz", "Src\01\02\KSociety.Example.Srv.BehaviorBiz\KSociety.Example.Srv.BehaviorBiz.csproj", "{7051736C-F38F-46AA-B4CD-DA004A6E7276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.BehaviorBiz", "src\01\02\KSociety.Example.Srv.BehaviorBiz\KSociety.Example.Srv.BehaviorBiz.csproj", "{7051736C-F38F-46AA-B4CD-DA004A6E7276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSociety.Example.Srv.AgentBiz", "Src\01\02\KSociety.Example.Srv.AgentBiz\KSociety.Example.Srv.AgentBiz.csproj", "{05D83AE5-CD85-422B-90C0-EFECC2BDC16A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSociety.Example.Srv.AgentBiz", "src\01\02\KSociety.Example.Srv.AgentBiz\KSociety.Example.Srv.AgentBiz.csproj", "{05D83AE5-CD85-422B-90C0-EFECC2BDC16A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,7 +14,7 @@ namespace KSociety.Example.Srv.Host
     {
         public ILifetimeScope AutofacContainer { get; private set; }
         private bool DebugFlag { get; }
-        private DatabaseOptions DatabaseOptions { get; }
+        private DatabaseOptions? DatabaseOptions { get; }
 
         public Startup(IConfiguration configuration)
         {
@@ -50,7 +50,7 @@ namespace KSociety.Example.Srv.Host
         // Don't build the container; that gets done for you by the factory.
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            switch (DatabaseOptions.DatabaseEngine)
+            switch (DatabaseOptions?.DatabaseEngine)
             {
                 case DatabaseEngine.Sqlserver:
                     throw new ArgumentOutOfRangeException();

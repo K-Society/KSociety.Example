@@ -22,7 +22,7 @@ public class TestExampleRpcHandler : IntegrationRpcHandler<TestExampleEvent, Tes
         }
         else
         {
-            Logger.LogError("IBiz not Registered!");
+            Logger?.LogError("IBiz not Registered!");
         }
     }
 
@@ -30,11 +30,12 @@ public class TestExampleRpcHandler : IntegrationRpcHandler<TestExampleEvent, Tes
     {
         try
         {
-            //connectionRead = _biz.GetConnectionReadStatus(@event.GroupName, @event.ConnectionName);
+            connectionRead = await _biz.GetTestExampleAsync(@event..GroupName, @event.ConnectionName)
+                .ConfigureAwait(false);
             //connectionWrite = _biz.GetConnectionWriteStatus(@event.GroupName, @event.ConnectionName);
         }catch(Exception ex)
         {
-            Logger.LogError(ex, "TestExampleRpcHandler: ");
+            Logger?.LogError(ex, "TestExampleRpcHandler: ");
         }
 
         return new TestExampleEventReply(@event.TestName + ".example.test", @event.TestName, @event.TestMessage);

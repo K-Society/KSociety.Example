@@ -14,13 +14,14 @@ namespace KSociety.Example.Srv.HostBiz
     {
         public ILifetimeScope AutofacContainer { get; private set; }
         private bool DebugFlag { get; }
-
+        private DatabaseOptions? DatabaseOptions { get; }
 
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
 
             DebugFlag = Configuration.GetValue<bool>("DebugFlag");
+            DatabaseOptions = Configuration.GetSection("Database").Get<DatabaseOptions>();
         }
 
         public IConfiguration Configuration { get; }
@@ -47,7 +48,7 @@ namespace KSociety.Example.Srv.HostBiz
         // Don't build the container; that gets done for you by the factory.
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            switch (DatabaseOptions.DatabaseEngine)
+            switch (DatabaseOptions?.DatabaseEngine)
             {
                 case DatabaseEngine.Sqlserver:
                     throw new ArgumentOutOfRangeException();
@@ -90,8 +91,8 @@ namespace KSociety.Example.Srv.HostBiz
                 builder.RegisterModule(new KSociety.Base.Srv.Host.Shared.Bindings.Mediatr());
 
                 //Book.
-                builder.RegisterModule(new Bindings.Repository<TContext>());
-                builder.RegisterModule(new Bindings.QueryModel());
+                //builder.RegisterModule(new Bindings.Repository<TContext>());
+                //builder.RegisterModule(new Bindings.QueryModel());
 
                 //UnitOfWork.
                 builder.RegisterModule(new KSociety.Base.Infra.Shared.Bindings.UnitOfWork<TContext>());
