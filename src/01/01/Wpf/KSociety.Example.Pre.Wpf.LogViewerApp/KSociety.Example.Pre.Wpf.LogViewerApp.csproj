@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright © K-Society and contributors. All rights reserved. Licensed under the K-Society License. See LICENSE.TXT file in the project root for full license information. -->
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KSociety.Log.Serilog.Sinks.RichTextBox.Wpf" Version="1.2.7" />
+  </ItemGroup>
+  
+  <Target Condition="'$(OutputPath)\publish\createdump.exe' != ''" Name="PostPublish" AfterTargets="Publish">
+    <Exec Command="del $(OutputPath)\publish\createdump.exe" />
+  </Target>
+
+</Project>

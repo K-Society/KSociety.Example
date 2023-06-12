@@ -65,7 +65,7 @@ namespace KSociety.Example.Biz.Class
 
         public async ValueTask<TestExampleEventReply> GetTestExampleAsync(TestExampleEvent testExampleEvent, CancellationToken cancellationToken = default)
         {
-            if (_subscriber.EventBus.ContainsKey(connectionStatusIntegrationEvent.GroupName + "_Connection_Client"))
+            if (_subscriber.EventBus.ContainsKey(testExampleEvent. connectionStatusIntegrationEvent.GroupName + "_Connection_Client"))
             {
                 return await ((IEventBusRpcClient) _subscriber.EventBus[
                         connectionStatusIntegrationEvent.GroupName + "_Connection_Client"])
