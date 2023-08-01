@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="KSociety.Base.Domain.Shared" Version="1.2.6" />
+    <PackageReference Include="KSociety.Base.Domain.Shared" Version="1.2.33" />
   </ItemGroup>
 
 </Project>

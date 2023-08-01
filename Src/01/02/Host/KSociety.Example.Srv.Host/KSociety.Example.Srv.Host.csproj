@@ -11,14 +11,14 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
-    <PackageReference Include="KSociety.Base.Srv.Behavior" Version="1.2.6" />
-    <PackageReference Include="KSociety.Base.Srv.Host.Shared" Version="1.2.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+    <PackageReference Include="KSociety.Base.Srv.Behavior" Version="1.2.33" />
+    <PackageReference Include="KSociety.Base.Srv.Host.Shared" Version="1.2.33" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="7.0.1" />
     <PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.1.1" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="7.0.0" />
     <PackageReference Include="Serilog.Settings.Configuration" Version="7.0.0" />

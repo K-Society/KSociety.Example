@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="KSociety.Log.Serilog.Sinks.RichTextBox.Wpf" Version="1.2.7" />
+    <PackageReference Include="KSociety.Log.Serilog.Sinks.RichTextBox.Wpf" Version="1.2.35" />
   </ItemGroup>
   
   <Target Condition="'$(OutputPath)\publish\createdump.exe' != ''" Name="PostPublish" AfterTargets="Publish">

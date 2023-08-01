@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="7.0.1" />
-    <PackageReference Include="KSociety.Log.Serilog.Sinks.RabbitMq" Version="1.2.7" />
+    <PackageReference Include="KSociety.Log.Serilog.Sinks.RabbitMq" Version="1.2.35" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
     <PackageReference Include="Serilog.Extensions.Logging" Version="7.0.0" />
     <PackageReference Include="Serilog.Settings.Configuration" Version="7.0.0" />
